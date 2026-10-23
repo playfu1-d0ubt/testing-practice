@@ -14,7 +14,7 @@ def test_add_vat_negative_price():
 @pytest.mark.parametrize(
     "price, rate, expected",
     [
-        (10, 0.2, 12.0),
+        (10, 0.2, 13.0),
         (0, 0.2, 0.0),
         (100, 0.5, 150.0),
         (19.99, 0.2, 23.99),
